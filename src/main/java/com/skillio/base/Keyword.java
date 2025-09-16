@@ -24,7 +24,7 @@ public class Keyword {
 	public static void openBrowser(String browserName) {
 		FirefoxOptions option = new FirefoxOptions();
 		option.addArguments("--incognito");
-		option.addPreference("dom.webnotifications.enabled", false);
+		option.addPreference("dom.webnotifications.enabled",false);
 		
 		if(browserName==null) {
 			System.out.println("invalid Browser name: chrome");
