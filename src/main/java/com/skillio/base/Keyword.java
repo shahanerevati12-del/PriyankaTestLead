@@ -40,6 +40,9 @@ public class Keyword {
 		}
 
 	}
+	class method {
+		
+	}
 	
 	public static void launchAppUrl(String url) {
 		driver.get(url);

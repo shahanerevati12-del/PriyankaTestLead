@@ -3,7 +3,7 @@ package com.skillio.base;
 public interface Locator {
 	
 	//String searchproduct="//input[@placeholder=\"Search for products, brands and more\"]";
-	 String closeButton="//span[@class=\"sc-koXPp bDtzaf\"]";
+	 String  closeButton="//span[@class=\"sc-koXPp bDtzaf\"]";
 	 String fromButton="//span[text()='From']";
       String fromSearchbutton="//input[@type=\"text\"]";
       String ProductCityAppered="ul#autoSuggest-list";
