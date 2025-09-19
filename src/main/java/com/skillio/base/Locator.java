@@ -10,22 +10,22 @@ public interface Locator {
       String FromSearchbuttonClick=  "div.kGtxGm>div>ul#autoSuggest-list>li:nth-child(1)";                         //"ul#autoSuggest-list>li:nth-child(1)";
     // String ToButton=  "div.OmQvV>div>span";                      //"//span[text()='To']";     
      
-    String ToSearchButton= "div.fbAAhv>input";
-   String ToSearchButtonClick="ul#autoSuggest-list>li:nth-child(1)";
+    String toSearchButton= "div.fbAAhv>input";
+   String toSearchButtonClick="ul#autoSuggest-list>li:nth-child(1)";
 	
-	String ClickOnDepatureButton="//span[text()='Departure']";
+	String clickOnDepatureButton="//span[text()='Departure']";
 	//"div[class=\"gr_fswFld active\"]>span";
-	String CurrentMonthYear="//div[@class=\"DayPicker-Caption\"]/div";
+	String currentMonthYear="//div[@class=\"DayPicker-Caption\"]/div";
 	//div[class="DayPicker-Caption"] div
-	String NextMonth="//span[@aria-label=\"Next Month\"]";
+	String nextMonth="//span[@aria-label=\"Next Month\"]";
 	//span[aria-label="Next Month"]
-	String PopUpWindow="div.sc-jlwm9r-6 ";
-	String PopupClose="//p[@class=\"sc-jlwm9r-1 ewETUe\"]";
-	String CurrentDate="//p[@class=\"fsw__date\"]";
-	String  TravellerAndClassButton="//span[text()='Travellers & Class']";
-	String ChildOption="//p[text()='Children']/following-sibling::div /child::span[2]";
-	String ChildIncreament="//p[text()='Children']/following-sibling::div/child::span[3]";
-	String ChildDecreament="//p[text()='Children']/following-sibling::div/child::span[3]";
+	String popUpWindow="div.sc-jlwm9r-6 ";
+	String popupClose="//p[@class=\"sc-jlwm9r-1 ewETUe\"]";
+	String currentDate="//p[@class=\"fsw__date\"]";
+	String travellerAndClassButton="//span[text()='Travellers & Class']";
+	String childOption="//p[text()='Children']/following-sibling::div /child::span[2]";
+	String childIncreament="//p[text()='Children']/following-sibling::div/child::span[3]";
+	String childDecreament="//p[text()='Children']/following-sibling::div/child::span[3]";
 	String EconomyButton="li[class=\"sc-12foipm-46 jva-DHv\"]";
 	String DoneButton="a[class=\"sc-12foipm-64 jkgFUQ\"]";
 	String SeniorButton="div>input#SC+label[class=\"sc-12foipm-88 kSreEi\"]>div:nth-child(1)";
